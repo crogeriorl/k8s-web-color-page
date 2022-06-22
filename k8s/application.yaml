@@ -7,11 +7,11 @@ spec:
   destination:
     namespace: default
     server: https://kubernetes.default.svc
-    targetRevision: HEAD
   project: default
   source:
     path: k8s
     repoURL: https://github.com/crogeriorl/k8s-web-color-page.git
+    targetRevision: HEAD
 
   syncPolicy:
     syncOptions:
