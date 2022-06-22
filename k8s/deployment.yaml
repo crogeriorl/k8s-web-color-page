@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: webcolor
 spec:
+  ReplicasÇ 2
   selector:
     matchLabels:
       app: webcolor
